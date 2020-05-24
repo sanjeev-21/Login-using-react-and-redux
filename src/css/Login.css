@@ -1,0 +1,193 @@
+.main-div{
+    background-image: url(../Assets/login-back.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+    background-repeat:no-repeat;
+    position: fixed; 
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .lpginfo{
+    padding-top: 16px;
+    font-size: 18px;
+    color: white;
+  }
+  #hrinfo{
+    width: 80%;
+    margin-top: -18px;
+    padding: 0px;
+    margin-left: 32px;
+  }
+  #chid{
+    margin-top: -13px;
+  }
+  .loginIno-icons{
+    width: 51px;
+    margin-bottom: 2px;
+    padding: 7px;
+    border-radius: 27px;
+    
+  }
+  .lpginfo{
+    padding-top: 16px;
+    font-size: 18px;
+    color: white;
+   
+  }
+  #linnealign{
+    margin-left: 12%;
+  }
+  #chlinnealign{
+    margin-left: 1%;
+  }
+  #changepwd{
+    font-size: 19px;
+    font-weight: bolder;
+    color: navajowhite;
+    margin-top: -9px;
+    
+  }
+  #forgetpwd{
+    font-size: 19px;
+    font-weight: bolder;
+    color: navajowhite;
+    margin-top: -9px;
+    padding-left: 9%;
+   
+    
+  }
+  .errorinfo{
+    color: red;
+      margin-left: 12%;
+      margin-top: -4px;
+      margin-bottom: 5px;
+  }
+  .login-img{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-top: 16%;
+    height: 28rem
+  }
+  .input-grp{
+    margin-top: 7%;
+  }
+  .pginfo{
+    padding: 18px;
+      font-size: 18px;
+      color: white;
+      margin-left: 98px;
+  }
+  .lginfo{
+    margin-left: 14px;
+      font-weight: bolder;
+      color: navajowhite;
+  }
+  .hinfo{
+    color: white;
+    margin-bottom: 16px;
+    margin-left: 13%;
+  }
+  .save-btn{
+    
+        font-size: 14px;
+        font-weight: 800;
+        background-color: dodgerblue;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+        opacity: 0.9;
+        border-radius: 26px;
+        margin-left: 12%;
+  }
+  .login-icons{
+    width: 47px;
+    margin-bottom: 2px;
+    padding: 7px;
+    padding: 6px;
+    margin-top: 5px;
+  }
+  .input-container {
+      margin-left: 12%;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .input-field {
+    border-radius: 41px;
+    width: 89%;
+    padding: 10px;
+    height: 50px;
+    border: none;
+  
+  }
+  input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+  }
+  /* Responsive */
+  @media only screen and (max-width: 700px) {
+    .store-img{
+        width: 70%;
+        margin-left: 16%;
+        margin-top: 5%;
+    }
+    .input-grp{
+        margin-top: 5%;
+    }
+    .hinfo{
+        margin-left: 24%;
+    }
+    .input-container {
+        margin-left: 20% !important;
+        display: flex;
+        width: 59% !important;
+    }
+    .save-btn {
+        margin-left: 19%;
+        margin-top: 0;
+        width: 59% !important;
+    }
+  }
+  @media(min-width: 610px) and (max-width: 700px) {
+    .store-img{
+        width: 60% !important;
+        margin-left: 19%;
+    }
+  }
+  @media(min-width: 700px) and (max-width: 767px){
+    .store-img{
+        width: 53%;
+        margin-left: 23%;
+        margin-top: 5%;
+    }
+    .input-grp{
+        margin-top: 8%;
+    }
+    .hinfo{
+        margin-left: 24%;
+    }
+    .input-container {
+        margin-left: 23%;
+        display: flex;
+        width: 53% !important;
+    }  
+    .save-btn {
+        margin-left: 23%;
+        width: 53% !important;
+        margin-top: 0
+    }    
+  }
+  @media(min-width: 768px) and (max-width: 1000px){
+    .input-grp {
+        margin-top: 4%;
+    }
+    .hinfo{
+        margin-left: 14%;
+    }
+  }
+  
